@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: rgba(104, 173, 97, 0.71);
+}
+
+.inner_body {
+    width: 70%;
+    height: 370px;
+    margin: 130px auto 0;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #707070;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.inner_body h1 {
+    color: #862C2C;
+    padding: 10px
+}

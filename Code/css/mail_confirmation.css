@@ -1,0 +1,27 @@
+p {
+    text-align: center;
+    margin: 35px 0 0;
+    font-size: 18px;
+}
+
+.user_email {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.return {
+    text-decoration: none;
+    font-weight: bold;
+    color: #862C2C;
+    border: #707070 solid 1px;
+    padding: 4px 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16)
+}
+
+.return_container {
+    margin: 45px 0;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zeteenmeet.be</title>
+    <link rel="stylesheet" id="cssAdmin" href="../css/admin.css" disabled>
+    <link rel="stylesheet" id="cssAdminAddUser" href="../css/admin_add_user.css" disabled>
+    <link rel="stylesheet" id="cssCommon" href="../css/common.css" disabled>
+    <link rel="stylesheet" id="cssLogin" href="../css/login.css" disabled>
+    <link rel="stylesheet" id="cssMailConfirmation" href="../css/mail_confirmation.css" disabled>
+    <link rel="stylesheet" id="cssResetPassword" href="../css/reset_password.css" disabled>
+    <link rel="stylesheet" id="cssUser" href="../css/user.css" disabled>
+</head>
+
+<body>
+    <p style="margin: 60px auto 0">Script laden...</p>
+</body>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+<!-- https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+    var firebaseConfig = {
+        apiKey: "AIzaSyCEdmP7be8rcEM6YtSNelv2rGDbDnGPTGg",
+        authDomain: "zeteenmeet.firebaseapp.com",
+        databaseURL: "https://zeteenmeet.firebaseio.com",
+        projectId: "zeteenmeet",
+        storageBucket: "zeteenmeet.appspot.com",
+        messagingSenderId: "498328027847",
+        appId: "1:498328027847:web:c723d54b9434c3fb2c34e2"
+    };
+    firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="../js/login.js"></script>
+<script src="../js/user.js"></script>
+<script src="../js/admin.js"></script>
+<script src="../js/admin_add_user.js"></script>
+<script src="../js/reset_password.js"></script>
+<script src="../js/mail_confirmation.js"></script>
+
+</html>

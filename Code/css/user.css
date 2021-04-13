@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: rgba(104, 173, 97, 0.71);
+}
+
+.user {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-color: #707070;
+}
+
+.user_name {
+    margin: 35px 0 0;
+    color: white;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.counter_container {
+    background-color: white;
+    position: absolute;
+    width: 80%;
+    top: 80px;
+    left: 10%;
+    height: 120px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    line-height: 120px;
+    font-size: 45px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+
+}
+
+.counter {
+    display: inline-block;
+    width: 29%;
+    margin: 0 9%;
+}
+
+/*-----BUTTONS-----*/
+
+button:focus {
+    outline: none;
+}
+
+.button_container {
+    position: relative;
+    margin: 230px auto 0;
+}
+
+.addition {
+    padding: 10% 15%;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background-color: white;
+}
+
+.add_meet {
+    margin-bottom: -1px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+
+.add_double_meet {
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+/*--------*/
+
+.log_out {
+    font-size: 20px;
+    font-weight: bold;
+    color: #862C2C;
+    width: 130px;
+    height: 40px;
+    margin: 80px auto 40px;
+    background-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
